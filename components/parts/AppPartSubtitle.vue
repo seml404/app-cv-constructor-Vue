@@ -1,10 +1,10 @@
 <template>
-  <div class="loader" v-if="isLoading"></div>
+  <h2>{{ partContent.text }}</h2>
 </template>
 
 <script>
 export default {
-  props: ["isLoading"],
+  props: ["partContent"],
 };
 </script>
 
